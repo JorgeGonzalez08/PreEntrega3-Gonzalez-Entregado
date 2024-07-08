@@ -1,0 +1,38 @@
+/*================== Media Query de index.html =================*/
+
+@media (max-width: 575px) {
+    /*======= Section hero =======*/
+    .section-container {
+        padding: 1rem 0.5rem;
+        margin: 0 2.5rem;
+    }
+
+    .section-title {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .section-text {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    /*======= Section secundary =======*/
+    .section-description {
+        padding: 0 1rem;
+    }
+
+    .images{
+        gap: 1rem;
+    }
+}
+
+/*================== Media Query de galeria.html  =================*/
+
+@media (max-width: 575px) {
+    .gallery {
+      margin: 1rem;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }

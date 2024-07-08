@@ -1,0 +1,29 @@
+/*================== Mixin para ancho imagenes =================*/
+@mixin img($width){
+    width: $width;
+}
+
+/*================== Mixin de servicios.html =================*/
+@mixin animation($time){
+    animation: scale-in-center $time ease-in both;
+}
+@keyframes scale-in-center {
+    0% {
+        transform: scale(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/*================== Mixin GRID =================*/
+@mixin grid($auto,$ancho){
+    display: grid;
+    grid-template-columns: repeat($auto, minmax($ancho, 1fr));
+    // align-items: center;
+    gap: 1rem;
+}
+
