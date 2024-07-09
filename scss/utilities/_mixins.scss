@@ -23,7 +23,6 @@
 @mixin grid($auto,$ancho){
     display: grid;
     grid-template-columns: repeat($auto, minmax($ancho, 1fr));
-    // align-items: center;
     gap: 1rem;
 }
 
